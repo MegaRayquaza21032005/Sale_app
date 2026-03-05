@@ -1,6 +1,8 @@
 from saleapp import app
 from flask import render_template
 import utils
+# from saleapp import utils (vscode)
+# python3 -m saleapp.index
 
 @app.route('/')
 def home():
